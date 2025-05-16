@@ -5,7 +5,7 @@ export default function Authentication() {
     const [isRegistration, setIsRegistration] = useState(false);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const [authenticating, setAuthenticating] = useState(false);
+    const [isAuthenticating, setIsAuthenticating] = useState(false);
 
     async function handleAuthenticate(){
 
