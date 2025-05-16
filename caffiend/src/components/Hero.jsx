@@ -11,7 +11,7 @@ export default function Hero() {
         </h3>
         <p>✅ Tracking every coffee</p>
         <p>✅ Measuring your blood caffeine levels</p>
-        <p>✅ costing and quantifying your addiction</p>
+        <p>✅ Costing and quantifying your addiction</p>
       </div>
       <div className="card info-card">
         <div>

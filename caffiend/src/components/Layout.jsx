@@ -17,15 +17,23 @@ export default function Layout(props) {
   const footer = (
     <footer>
       <p>
-        <span className="text-gradient">Caffiend</span> was made by
-        <a target="_blank" href="https://github.com/aridepai17">
+        <span className="text-gradient">Caffiend</span> was made by{" "}
+        <a
+          target="_blank"
+          href="https://github.com/aridepai17"
+          rel="noopener noreferrer"
+        >
           aridepai17
-        </a>
-        using the
-        <a href="https://www.fantacss.smoljames.com" target="_blank">
+        </a>{" "} <br />
+        using the{" "}
+        <a
+          href="https://www.fantacss.smoljames.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           FantaCSS
-        </a>
-        design library
+        </a>{" "}
+        design library.
       </p>
     </footer>
   );
