@@ -1,6 +1,6 @@
 # CAFFIEND
 
-![Caffiend WebApp](caffiend\picture\caffiendapp.png)
+![Caffiend WebApp](caffiend/picture/caffiendapp.png)
 
 ### 🌐 TRY CAFFIEND  
 👉 [Live Demo on Netlify](https://caffiendcoffeetracker.netlify.app/)  
@@ -63,7 +63,6 @@ caffiend/
 ├── node_modules/
 ├── public/
 ├── src/
-│   ├── assets/
 │   ├── components/
 │   │   ├── Authentication.jsx
 │   │   ├── CoffeeForm.jsx
