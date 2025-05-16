@@ -92,7 +92,7 @@ export default function CoffeeForm(props) {
                 setShowCoffeeTypes(false);
               }}
               className={
-                "button-card " +
+                "button-card" +
                 (option.name === selectedCoffee
                   ? " coffee-button-selected"
                   : " ")
