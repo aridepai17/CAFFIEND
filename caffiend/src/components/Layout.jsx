@@ -38,7 +38,7 @@ export default function Layout(props) {
         <span className="text-gradient">Caffiend</span> was made by{" "}
         <a
           target="_blank"
-          href="https://github.com/aridepai17"
+          href="https://github.com/aridepai17/"
           rel="noopener noreferrer"
         >
           aridepai17
@@ -56,7 +56,7 @@ export default function Layout(props) {
         Check out the project on{" "}
         <a
           target="_blank"
-          href="https://github.com/aridepai17/"
+          href="https://github.com/aridepai17/CAFFIEND.git"
           rel="noopener noreferrer"
         >
           GitHub
