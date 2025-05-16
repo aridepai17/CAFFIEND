@@ -18,7 +18,7 @@ function StatCard(props) {
 }
 
 export default function Stats() {
-    const { globalData } = useAuth();
+  const { globalData } = useAuth();
   const stats = calculateCoffeeStats(globalData);
 
   const caffeineLevel = calculateCurrentCaffeineLevel(globalData);
@@ -81,17 +81,15 @@ export default function Stats() {
             </tr>
           </thead>
           <tbody>
-            {getTopThreeCoffees(globalData).map(
-              (coffee, coffeeIndex) => {
-                return (
-                  <tr key={coffeeIndex}>
-                    <td>{coffee.coffeeName}</td>
-                    <td>{coffee.count}</td>
-                    <td>{coffee.percentage}</td>
-                  </tr>
-                );
-              }
-            )}
+            {getTopThreeCoffees(globalData).map((coffee, coffeeIndex) => {
+              return (
+                <tr key={coffeeIndex}>
+                  <td>{coffee.coffeeName}</td>
+                  <td>{coffee.count}</td>
+                  <td>{coffee.percentage}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

@@ -7,8 +7,7 @@ import {
 import { useAuth } from "../context/AuthContext";
 
 export default function History() {
-
-    const {globalData} = useAuth();
+  const { globalData } = useAuth();
   return (
     <>
       <div className="section-header">
@@ -27,14 +26,14 @@ export default function History() {
             const originalAmount = getCaffeineAmount(coffee.name);
             const remainingAmount = calculateCurrentCaffeineLevel({
               [utcTime]: coffee,
-            })
+            });
 
             const summary = `${coffee.name} | ${timeSinceConsume} ago | $${coffee.cost} | ${remainingAmount}mg / ${originalAmount}mg`;
             return (
               <div title={summary} key={coffeeIndex}>
                 <i className="fa-solid fa-mug-hot" />
               </div>
-            )
+            );
           })}
       </div>
     </>
