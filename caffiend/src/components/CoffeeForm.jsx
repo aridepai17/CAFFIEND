@@ -11,7 +11,7 @@ export default function CoffeeForm(props) {
   const [showModal, setShowModal] = useState(false);
   const [selectedCoffee, setSelectedCoffee] = useState(null);
   const [showCoffeeTypes, setShowCoffeeTypes] = useState(false);
-  const [coffeeCost, setCoffeeCost] = useState(0);
+  const [coffeeCost, setCoffeeCost] = useState("");
   const [hour, setHour] = useState(0);
   const [min, setMin] = useState(0);
 
@@ -135,15 +135,16 @@ export default function CoffeeForm(props) {
           })}
         </select>
       )}
-      <h4>Add the cost ($)</h4>
+      <h4>Cost (₨)</h4>
       <input
         className="w-full"
         type="number"
         value={coffeeCost}
         onChange={(e) => {
-          setCoffeeCost(e.target.value);
+          const value = e.target.value;
+          setCoffeeCost(value === "" ? "" : parseFloat(value));
         }}
-        placeholder="4.50"
+        placeholder="60.00"
       />
       <h4>Time since consumption</h4>
       <div className="time-entry">
@@ -175,13 +176,15 @@ export default function CoffeeForm(props) {
             }}
             id="mins-select"
           >
-            {[0, 5, 10, 15, 30, 45].map((min, minIndex) => {
-              return (
-                <option key={minIndex} value={min}>
-                  {min}
-                </option>
-              );
-            })}
+            {[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55].map(
+              (min, minIndex) => {
+                return (
+                  <option key={minIndex} value={min}>
+                    {min}
+                  </option>
+                );
+              }
+            )}
           </select>
         </div>
       </div>

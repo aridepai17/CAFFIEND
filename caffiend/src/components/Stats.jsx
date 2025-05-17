@@ -62,14 +62,14 @@ export default function Stats() {
             <span className="stat-text">{stats.average_coffees}</span>
           </p>
         </StatCard>
-        <StatCard title="Daily Cost ($)">
+        <StatCard title="Daily Cost (₹)">
           <p>
-            $ <span className="stat-text">{stats.daily_cost}</span>
+          ₹ <span className="stat-text">{stats.daily_cost}</span>
           </p>
         </StatCard>
-        <StatCard title="Total Cost ($)">
+        <StatCard title="Total Cost (₹)">
           <p>
-            $ <span className="stat-text">{stats.total_cost}</span>
+          ₹ <span className="stat-text">{stats.total_cost}</span>
           </p>
         </StatCard>
         <table className="stat-table">
