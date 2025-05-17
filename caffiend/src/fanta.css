@@ -13,8 +13,7 @@
 * 7. Interactive elements
 *
 */
-
-@import url("https://fonts.googleapis.com/css2?family=PressStart+2P&family=Grenze:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 :root {
     --background-primary: white;
@@ -116,7 +115,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Press Start 2P", sans-serif;
+    font-family: "Righteous", sans-serif;
 }
 
 body {
@@ -144,7 +143,7 @@ h4,
 h5,
 h6,
 button {
-    font-family: "Press Start 2P", sans-serif;
+    font-family: "Righteous", sans-serif;
     width: fit-content;
 }
 

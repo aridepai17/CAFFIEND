@@ -257,9 +257,6 @@ footer {
   gap: 1rem;
 }
 
-
-
-
 @media (min-width: 640px) {
   main h1 {
     padding-top: 2.5rem;
