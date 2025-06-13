@@ -1,6 +1,6 @@
 # CAFFIEND
 
-![Caffiend WebApp](caffiend/picture/caffiendapp.png)
+![Caffiend WebApp](caffiend/picture/caffiendapp2.png)
 
 ### 🌐 TRY CAFFIEND  
 👉 [Live Demo on Netlify](https://caffiendcoffeetracker.netlify.app/)  
